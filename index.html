@@ -1,63 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./porta.css">
-    <title>Protifolio2</title>
+    <title>Portfólio - Vitor</title>
+    <link rel="stylesheet" href="porta.css">
 </head>
 <body>
-    
-    <div class="brass"> 
-        
-        <h1 style="color: white ; text-align:auto;">Vitor</h1>
-         <a href="#inicio">Inicio</a>
-         <a href="#projetos">Projetos</a>
-         <a href="#contato">Contato </a>
-    </div>
-    
-      
-    
-    <h1 style="margin-left: 50px ;">Olá, me chamo Vitor</h1>
-    <h3 style="margin-left: 60px ;">Crio soluções para empressas e industrias e automatizar os sites </h3>
-    <img src="" alt="img" style="width: 200px; height: 150px;">
-    
-    <h1>Quem eu sou?</h1>
-    <p>Sou programador full stack, o que significa que trabalho tanto no desenvolvimento do back-end quanto do front-end de aplicações. Tenho conhecimento para criar desde a estrutura lógica e os bancos de dados que fazem o sistema funcionar, até as interfaces e a experiência que o usuário final vai ter. Gosto de entender o projeto como um todo e contribuir em todas as etapas, desde a ideia inicial até a entrega final. Essa versatilidade me permite adaptar às necessidades de cada projeto e colaborar de forma mais completa com a equipe.</p>
+    <!-- ========== CABEÇALHO / MENU ========== -->
+    <header class="brass">
+        <h1>Vitor</h1>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
-    <a href="https://github.com/VitorFelisbert/Curriculo/raw/main/Azul%20Marinho%20e%20Preto%20Profissional%20Curr%C3%ADculo.pdf" target="_blank"><button class="boton">Currículo</button></a>
+    <!-- ========== SEÇÃO INÍCIO ========== -->
+    <section id="inicio" class="inicio">
+        <div class="intro-text">
+            <h2>Olá, me chamo <span>Vitor</span> 👋</h2>
+            <p>Crio soluções para empresas e indústrias, automatizando sites e otimizando sistemas com tecnologia moderna.</p>
+            <a href="https://github.com/VitorFelisbert/Curriculo/raw/main/Azul%20Marinho%20e%20Preto%20Profissional%20Curr%C3%ADculo.pdf" target="_blank">
+                <button class="boton">Baixar Currículo</button>
+            </a>
+        </div>
+        <div class="intro-img">
+            <img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" alt="Programador">
+        </div>
+    </section>
 
+    <!-- ========== SEÇÃO SOBRE ========== -->
+    <section id="sobre">
+        <h1>Quem eu sou?</h1>
+        <p>
+            Sou programador <strong>Full Stack</strong>, o que significa que atuo no desenvolvimento do 
+            <strong>back-end</strong> e do <strong>front-end</strong> de aplicações. Tenho conhecimento para criar 
+            desde a estrutura lógica e os bancos de dados até as interfaces e experiências do usuário final.
+        </p>
+        <p>
+            Gosto de entender o projeto como um todo, contribuindo desde a ideia inicial até a entrega final. 
+            Essa versatilidade me permite adaptar às necessidades de cada projeto e colaborar de forma completa 
+            com qualquer equipe.
+        </p>
+    </section>
 
+    <!-- ========== SEÇÃO PROJETOS ========== -->
+    <section id="projetos">
+        <h1>Projetos</h1>
+        <div class="cards-container">
 
-    <h1>Tecnologias de domínio</h1>
-    <p>HTML</p>
-    <p>CSS</p>
-    <p>JS</p>
-    <H1 style="color:rgb(4, 0, 255)"> Projetos</H1>
-    <img>
-    <a href="" ></a>
-    <img src="" alt="">
-   
-    <h1> Manga online</h1>
-    <a href="https://vitorfelisbert.github.io/MangaOnline/"> Ver Projeto</a>
-    <a href="https://github.com/VitorFelisbert/MangaOnline"> Ver Código</a>
-     <img src="" alt="">
-   
-    <h1> Site Notícias </h1>
-    <a href="https://vitorfelisbert.github.io/G1/">Ver Projeto</a>
-    <a href="https://github.com/VitorFelisbert/G1"> Ver Código</a>
-     <img src="" alt="">
-     <h1></h1>
-    <a href="" ></a>
-     <img src="" alt="">
+            <div class="card">
+                <img src="https://vitorfelisbert.github.io/MangaOnline/capa.jpg" alt="Manga Online">
+                <h3>Manga Online</h3>
+                <p>Um site interativo para leitura de mangás online com interface moderna e responsiva.</p>
+                <a class="btn" href="https://vitorfelisbert.github.io/MangaOnline/" target="_blank">Ver Projeto</a>
+                <a class="btn" href="https://github.com/VitorFelisbert/MangaOnline" target="_blank">Ver Código</a>
+            </div>
 
+            <div class="card">
+                <img src="https://vitorfelisbert.github.io/G1/capa.jpg" alt="Site de Notícias">
+                <h3>Site de Notícias</h3>
+                <p>Projeto inspirado em portais de notícias com layout limpo e integração de conteúdo dinâmico.</p>
+                <a class="btn" href="https://vitorfelisbert.github.io/G1/" target="_blank">Ver Projeto</a>
+                <a class="btn" href="https://github.com/VitorFelisbert/G1" target="_blank">Ver Código</a>
+            </div>
 
-    <h2>Contatos</h2>
-    <a href="https://br.linkedin.com/">LikedIn</a>
-    <br>
-    
-    <a href="https://api.whatsapp.com/send/?phone=5532999910621&text=Olá%20Vim%20Pelo%20seu%20Portifólio&type=phone_number&app_absent=0">Whatsaap</a>
-   <br>
-   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vitorafs22@gmail.com&su=Titulo&body=Ol%C3%A1Tudo%20Bem?">E-Mail</a>
+        </div>
+    </section>
+
+    <!-- ========== SEÇÃO CONTATO ========== -->
+    <section id="contato">
+        <h2>Contatos</h2>
+        <a href="https://br.linkedin.com/" target="_blank">LinkedIn</a>
+        <a href="https://api.whatsapp.com/send/?phone=5532999910621&text=Olá%20Vim%20Pelo%20seu%20Portifólio&type=phone_number&app_absent=0" target="_blank">WhatsApp</a>
+        <a href="mailto:vitorafs22@gmail.com" target="_blank">E-mail</a>
+    </section>
+
+    <footer>
+        <p>© 2025 Vitor Felisberto | Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
