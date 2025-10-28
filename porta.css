@@ -1,6 +1,4 @@
-/* ==================== */
-/* RESET & GERAL */
-/* ==================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,10 +13,8 @@ body {
     overflow-x: hidden;
 }
 
-/* ==================== */
-/* CABEÇALHO / NAVBAR */
-/* ==================== */
-.brass {
+
+.brasp {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,14 +27,14 @@ body {
     backdrop-filter: blur(6px);
 }
 
-.brass h1 {
+.brasp h1 {
     color: #00b3ff;
     font-size: 1.8rem;
     font-weight: 700;
     letter-spacing: 2px;
 }
 
-.brass nav a {
+.brasp nav a {
     color: #00b3ff;
     text-decoration: none;
     margin-left: 25px;
@@ -46,14 +42,12 @@ body {
     transition: 0.3s;
 }
 
-.brass nav a:hover {
+.brasp nav a:hover {
     color: #fff;
     text-shadow: 0 0 10px #00b3ff;
 }
 
-/* ==================== */
-/* SEÇÃO INÍCIO */
-/* ==================== */
+
 .inicio {
     display: flex;
     justify-content: space-around;
@@ -92,9 +86,6 @@ body {
     50% { transform: translateY(-10px); }
 }
 
-/* ==================== */
-/* BOTÃO CURRÍCULO */
-/* ==================== */
 .boton {
     padding: 12px 25px;
     background: linear-gradient(90deg, #0072ff, #00c6ff);
@@ -113,9 +104,7 @@ body {
     box-shadow: 0 0 25px #00c6ff;
 }
 
-/* ==================== */
-/* SEÇÃO SOBRE */
-/* ==================== */
+
 #sobre {
     padding: 50px;
 }
@@ -133,9 +122,7 @@ body {
     text-align: justify;
 }
 
-/* ==================== */
-/* SEÇÃO PROJETOS */
-/* ==================== */
+
 #projetos {
     margin: 60px 0;
     padding: 20px;
@@ -213,9 +200,7 @@ body {
     box-shadow: 0 0 15px #00b3ff;
 }
 
-/* ==================== */
-/* SEÇÃO CONTATO */
-/* ==================== */
+
 #contato {
     text-align: center;
     padding: 60px 20px;
@@ -240,9 +225,7 @@ body {
     text-shadow: 0 0 10px #00b3ff;
 }
 
-/* ==================== */
-/* RODAPÉ */
-/* ==================== */
+
 footer {
     background: #000;
     color: #777;
@@ -252,9 +235,7 @@ footer {
     border-top: 1px solid #00b3ff30;
 }
 
-/* ==================== */
-/* ANIMAÇÕES */
-/* ==================== */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -266,9 +247,7 @@ footer {
     }
 }
 
-/* ==================== */
-/* RESPONSIVIDADE */
-/* ==================== */
+
 @media (max-width: 768px) {
     .brass {
         flex-direction: column;
@@ -289,3 +268,4 @@ footer {
         padding: 0 20px;
     }
 }
+
